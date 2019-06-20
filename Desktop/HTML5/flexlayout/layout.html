@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    *{
+
+      box-sizing:border-box;
+    }
+    body{
+
+      display:flex;
+    }
+
+    .main{
+display:flex;
+flex-direction:column;
+flex:5;
+
+    }
+  .nav{
+
+display:flex;
+flex-direction:column;
+width:40vw;
+margin:0 auto 0 auto;
+
+
+
+  }
+  .nav>nav{
+    background:red;
+    height:20vh;
+
+
+  }
+  .content{
+    flex-direction:row;
+    display:flex;
+min-height:60vh;
+
+  }
+  .content>article{
+display:flex;
+background:yellow;
+flex:2;
+
+
+
+  }
+  .content>aside{
+display:flex;
+background:pink;
+flex:2;
+}
+header,footer{
+
+  background:yellowgreen;
+  height:20vh;
+
+}
+</style>
+  </head>
+  <body>
+    <div class="main">
+
+<header>header</header>
+<div class="nav">
+  <nav>nav</nav>
+  <div class="content">
+<article>article</article>
+<aside>aside</aside>
+    </div>
+    </div>
+      <footer>footer</footer>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+      <style media="screen">
+
+        *{
+          box-sizing:border-box;
+          padding:0;
+          margin:0;
+        }
+
+        .form{
+          display:flex;
+          flex-direction:column;
+          background-image: url("/home/pif/NEERAJ 1ST CLASS/images/Project 1 image/light-brown-wood-texture-background-footage-087436597_prevstill.jpeg");
+          background-size:cover;
+          min-height:100vh;
+          min-width:100vw;
+        }
+
+        .main1{
+          display:flex;
+          flex-direction:column;
+          height:55vh;
+          width:50vw;
+          background-color:rgba(255,255,255,0.3);
+          margin-left:25vw;
+          margin-top:27vh;
+          border-radius:20px;
+        }
+
+        .col-1{
+          display:flex
+          flex-direction:column;
+          margin-top:3vh;
+        }
+
+        .step1{
+          margin-left:14.5vw;
+        }
+
+        .label{
+          font-size:3vh;
+        }
+
+        .step1 > input{
+          height:5.5vh;
+          width:22vw;
+          border-radius:5px;
+          border:white;
+
+        }
+
+        .submit{
+          height:5.5vh;
+          width:22vw;
+          background-color:blue;
+          border:blue;
+          color:white;
+          margin-left:14.5vw;
+          border-radius:5px;
+          font-size:3vh;
+        }
+
+        .col-2{
+          display:flex
+          flex-direction:column;
+
+        }
+
+        .col-3{
+          display:flex
+          flex-direction:column;
+          margin-top:3vh;
+        }
+
+        .password{
+          height:5.5vh;
+          width:14vw;
+          background-color:blue;
+          border:blue;
+          color:white;
+          margin-left:14.5vw;
+          border-radius:5px;
+          font-size:3vh;
+        }
+
+        .login{
+          height:5.5vh;
+          width:7vw;
+          background-color:blue;
+          border:blue;
+          color:white;
+          margin-left:0.7vw;
+          border-radius:5px;
+          font-size:3vh;
+        }
+
+        .login1{
+          text-align:center;
+
+        }
+
+
+
+
+
+      </style>
+
+
+  </head>
+  <body>
+
+    <form class="form" action="index.html">
+
+      <div class="main1">
+        <div class="col-1">
+          <h1 class="login1"> LogIn </h1><br>
+          <div class="step1">
+            <label for="Name" class="label"><b>User Name:</b></label><br>
+          <input type="text"placeholder=" UserName">
+          </div> <br>
+
+
+          <div class="step1">
+          <label for="Name" class="label"><b>Password:</b></label><br>
+          <input type="password"placeholder=" Password">
+          </div>
+
+          </div><br>
+
+          <div class="col-2">
+          <input type="submit"value="submit" class="submit">
+          </div>
+
+          <div class="col-3">
+        <a href="file:///home/pif/Project%20file/Forgot-password.html"><input type="button" value="Forgot-Password" class="password"></a>
+          <input type="button"value="Log In" class="login">
+        </div>
+
+
+      </div>
+
+    </form>
+
+  </body>
+</html>

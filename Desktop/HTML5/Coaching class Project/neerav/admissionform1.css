@@ -1,0 +1,134 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  background-image: url("/home/pif/Desktop/HTML5/Coaching class Project/neerav/light-brown-wood-texture-background-footage-087436597_prevstill.jpeg");
+  background-size:cover;
+  padding:.5em;
+  min-height: 120vh;
+
+}
+
+.main1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 23vw;
+  padding:.5em;
+  margin-top:1vh;
+  height:125vh;
+  width:50vw;
+  background-color:rgba(0,225,255,0.3);
+  border-radius: 15px;
+
+}
+
+.main2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+
+.col-0{
+  display: flex;
+  flex-direction: row;
+  font-size: 3vh;
+
+}
+
+.step1 > input{
+  display: flex;
+  width:20vw;
+  height:5vh;
+  border-radius: 5px;
+  border:white;
+}
+
+.step2 > input{
+  display: flex;
+  width:20vw;
+  height:5vh;
+  border-radius: 5px;
+  border:white;
+  margin-left: 4vw;
+}
+
+
+
+.col-1{
+  display: flex;
+  flex-direction: row;
+  font-size: 3vh;
+  margin-top: 2vh;
+
+
+}
+
+.col-2{
+  display: flex;
+  font-size: 2.5vh;
+  margin-top: 2vh;
+
+
+}
+
+.gender{
+  display: flex;
+  font-size: 3vh;
+
+}
+
+.radio{
+  display: flex;
+  margin-left:20vw;
+  font-size: 2vh;
+}
+
+.radio1{
+  display: flex;
+  margin-left:5vw;
+  font-size: 2vh;
+}
+
+.col-3{
+  display: flex;
+  flex-direction:column;
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+
+.step3 > input{
+  display: flex;
+  width:44vw;
+  height:5vh;
+  border-radius: 5px;
+  border:white;
+
+}
+
+#course{
+  display: flex;
+  width:20vw;
+  height:5vh;
+  border:white;
+  border-radius: 5px;
+
+
+}
+.submit{
+
+  height:5.5vh;
+  width:20vw;
+  background-color: blue;
+  border:blue;
+  color:white;
+  border-radius: 5px;
+  margin-left: 25vh;
+  font-size: 3vh;
+}

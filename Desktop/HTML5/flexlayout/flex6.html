@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+      *{
+
+        box-sizing:border-box;
+      }
+      .main{
+
+        display:flex;
+        flex-direction:row;
+        background:orange;
+      }
+      .form{
+
+        display:flex;
+        flex:2;
+        padding:1em;
+
+
+
+      }
+      input{
+
+        padding:1em;
+        width:60vw;
+
+      }
+      .msg{
+
+        display:flex;
+        flex:1;
+        padding:1em;
+      }
+      label{
+         font-size:20px;
+        padding:1em;
+      }
+
+
+      </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="form">
+        <form>
+          <div>
+        <div>  <label>Name</label></div><br>
+        <div>  <input type="text" name="text"></div>
+        </div><br><br>
+
+        <div>
+
+        <div>  <label>Town you were born in</label></div><br>
+        <div>  <input type="text" name="text"></div>
+        </div><br><br>
+
+          <div>
+        <div>  <label>Email</label></div><br>
+        <div>  <input type="email" name="email"></div>
+        </div><br><br>
+
+          <div><button style="background:black;color:white;width:20vw;font-size:20px;">Submit</button></div>
+
+
+          </form>
+        </div>
+
+
+
+        <div class="msg">
+          <div>
+      <div> <label>message</label></div><br>
+      <textarea name="name" rows="15" cols="40"></textarea>
+      </div>
+      </div>
+
+  </body>
+</html>

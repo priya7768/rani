@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      *{
+box-sizing:border-box;
+
+
+      }
+
+      .nav{
+display:flex;
+flex:1;
+background:red;
+
+      }
+      body{
+
+        display:flex;
+      }
+      .col-2{
+        display:flex;
+       flex:5;
+
+     flex-direction:column;
+
+
+      }
+      .main> article{
+
+background:blue;
+flex:2;
+
+  min-height:60vh;
+
+      }
+      .main> aside{
+      background:yellow;
+      flex:1;
+
+
+
+
+      }
+      .main{
+display:flex;
+        flex-direction:row;
+
+      }
+      aside,article,header,footer{
+        padding:1em;
+      }
+      header,footer{
+background:yellowgreen;
+height:20vh;
+
+      }
+      </style>
+  </head>
+  <body>
+    <div class="nav">nav</div>
+    <div class="col-2">
+      <header>header</header>
+      <div class="main">
+        <article>article</article>
+        <aside>aside</aside>
+        </div>
+        <footer>footer</footer>
+        </div>
+
+  </body>
+</html>

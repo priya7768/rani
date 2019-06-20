@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  display:flex;
+  flex-direction: column;
+  padding:2em;
+  color: black;
+  width:50vw;
+  margin-left: 25vw;
+  background-size: cover;
+  background-image: url("/home/pif/Desktop/HTML5/Coaching class Project/mahesh/6457bdb5a6ce883.jpg");
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+.col-2{
+  flex:1;
+}
+.col-1{
+  flex:5;
+  margin-left:5em;
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+}
+.col-12{
+  padding: 2em;
+}
+.col-12>div>select{
+  width: 14.3vw;
+  height:5vh;
+  border-radius: 5px;
+  border-width: 2px;
+}
+.col-21{
+  padding: 2em;
+}
+label,input{
+  padding: .5em;
+  display:flex;
+  flex:1;
+}
+div{
+  padding: .5em
+}
+.row3{
+  display: flex;
+  flex-direction: row;
+}
+.row3>button{
+  text-align: center;
+  background: darkgray;
+  color: red;
+  width:7em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  padding:.5em;
+  margin-left: 1.5em;
+}
+input{
+  border-radius: 5px;
+  border-color: darkgray;
+}

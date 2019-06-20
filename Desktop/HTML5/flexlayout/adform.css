@@ -1,0 +1,151 @@
+*{
+
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+  background:lightgrey;
+
+}
+.main{
+
+  display:flex;
+
+
+
+
+
+}
+.content{
+  display:flex;
+  flex-direction: column;
+flex:1;
+margin-left:4vw;
+
+}
+.col1{
+  display:flex;
+  flex-direction:row;
+}
+.c1{
+  display:flex;
+  flex:2;
+  flex-direction:column;
+}
+.col2{
+  display:flex;
+  flex-direction: row;
+}
+.c2{
+  display:flex;
+  flex:2;
+}
+
+.col3{
+  display:flex;
+  flex-direction: row;
+
+
+}
+.l1{
+  display:flex;
+  flex:2;
+}
+.col4{
+display:flex;
+flex-direction:row;
+
+
+}
+.l2{
+
+  display:flex;
+  flex:2;
+}
+.col5{
+  display:flex;
+  flex-direction:row;
+
+}
+.l3{
+  display:flex;
+  flex:2;
+
+}
+.col6{
+  display:flex;
+flex-direction:column;
+flex:2;
+
+}
+.c3{
+  display:flex;
+  flex-direction:row;
+
+}
+.pp{
+  display:flex;
+  flex-direction:column;
+
+}
+.col7{
+  display:flex;
+  flex-direction:column;
+
+}
+.m1{
+  display:flex;
+  flex-direction:column;
+  flex:2;
+
+}
+.pm3{
+  display:flex;
+  flex-direction:row;
+
+}
+.p2{
+  display:flex;
+  flex-direction:column;
+}
+.pm1{
+  display:flex;
+  flex-direction:column;
+  flex:2;
+}
+.pm2{
+  display:flex;
+  flex-direction: column;
+  flex:2;
+}
+.col8{
+  display:flex;
+  flex-direction:column;
+}
+.m3{
+  display:flex;
+    flex-direction:row;
+
+}
+.col9{
+  display:flex;
+  flex-direction:column;
+}
+.m4{
+  display:flex;
+    flex-direction:row;
+
+}
+
+label{
+  font-size:1.5vw;
+}
+input{
+  display:flex;
+  flex:1;
+  padding:0.4vw;
+width:100%;
+  border-radius: 8px;
+
+
+}

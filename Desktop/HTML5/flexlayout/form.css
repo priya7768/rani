@@ -1,0 +1,48 @@
+*{
+box-sizing: border-box;
+
+}
+.main{
+
+  display:flex;
+  background:grey;
+
+flex-direction: column;
+
+}
+
+.content{
+
+  display:flex;
+  flex-direction:row;
+
+
+}
+input{
+
+width:42vw;
+  padding:1em;
+}
+.col-1{
+  display:1;
+  flex:1;
+  flex-direction:column;
+}
+.col-2{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+}
+
+.form{
+
+  display:flex;
+
+  flex-direction: column;
+  margin-left:1em;
+
+}
+label{
+
+  font-size:20px;
+}

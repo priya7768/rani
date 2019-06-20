@@ -1,0 +1,29 @@
+.bigbox{
+background-color:#3498db;
+padding:50px;
+width:550px;
+
+}
+#smallbox{
+background-color:#e2f0f1;
+width:500px;
+padding:20px;
+}
+
+.center{
+text-align:left;
+}
+.chk{
+width:12px;
+}
+
+input{
+width:100%;
+margin:6px 0;
+padding:7px 2px;
+border:0px;
+border-radius:2px;
+background-color:lightgray;
+
+}
+

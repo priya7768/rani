@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>r
+
+      *{
+
+
+    box-sizing:border-box;
+      }
+      body{
+
+        display:flex
+      }
+      .main{
+      display:flex;
+      flex-direction:column;
+        flex:5;
+      }
+
+      .content{
+display:flex;
+flex-direction:row;
+min-height:60vh;
+
+      }
+      .content>article{
+
+flex:2;
+background:red;
+
+      }
+      .content>aside{
+flex:1;
+background:blue;
+
+      }
+      .content>nav{
+flex:1;
+background:yellow;
+
+      }
+      header,footer{
+background:yellowgreen;
+height:10vh;
+
+      }
+      header,footer,nav,aside,article{
+        padding:1em;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="main">
+      <header>header</header>
+      <div class="content">
+        <article>article  </article>
+        <aside>aside  </aside>
+        <nav>nav</nav>
+        </div>
+        <footer>footer</footer>
+      </div>
+  </body>
+</html>

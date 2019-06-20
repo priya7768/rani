@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width:100%;
+
+  display: flex;
+  flex-direction: column;
+margin: 0 auto 0 auto;
+text-align: center;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  height: 48vh;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+.clm1{
+  display: flex;
+  flex-direction: row;
+    height: 40vh;
+justify-content: space-around;
+}
+ .sec1{
+  height: 38vh;
+  width: 45vw;
+}
+.sec1 img{
+  width: 38vw;
+  height: 90%;
+  background-size: cover;
+}
+.part{
+  height: 106vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+}
+ .sec2{
+
+  height:35vh;
+
+
+}
+.sec2 img{
+  height: 100%;
+  background-size: cover;
+  padding: 5vh;
+}

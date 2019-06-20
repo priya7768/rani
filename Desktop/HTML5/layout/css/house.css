@@ -1,0 +1,27 @@
+.main{
+width:1000px;
+margin:0 auto 0 auto;
+
+}
+
+ul
+{
+display:block;
+margin-left: 130px;
+margin-top: -90px;
+font-size:130%;
+
+}
+
+ul li{
+display:inline-block;
+list-style: none;
+
+}
+
+.navigation{
+  height:15%;
+
+background-color:red;
+
+}

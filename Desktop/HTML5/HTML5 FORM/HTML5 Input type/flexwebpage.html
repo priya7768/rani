@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      *{
+
+        box-sizing:border-box;
+      }
+      body{
+display:flex;
+
+
+
+      }
+      .main{
+
+        display:flex;
+        flex-direction:row;
+        flex:3;
+        min-height:100vh;
+        border: 10px solid;
+        border-color:darkgrey;
+          background:green;
+
+
+      }
+      .col-1{
+display:flex;
+flex-direction:column;
+border: 10px solid;
+border-color:darkgrey;
+
+
+flex:4;
+font-size:30px;
+
+      }
+      .col-1>section{
+        flex:1;
+        display:flex;
+background:yellowgreen;
+        height:30vh;
+        border:2px solid;
+        width:30vw;
+        border: 10px solid;
+        border-color:seagreen;
+        margin-left:30px;
+        padding:1.5em;
+
+
+
+      }
+      .col-1>article{
+        flex:1;
+        display:flex;
+        background:yellowgreen;
+        height:30vh;
+        border:2px solid;
+        width:30vw;
+        border: 10px solid;
+        border-color:seagreen;
+        margin-left:30px;
+          padding:1.5em;
+
+      }
+
+
+      .col-2{
+      display:flex;
+      flex-direction:column;
+
+border: 10px solid;
+border-color:darkgrey;
+
+      flex:4;
+      font-size:20px;
+
+
+
+      }
+      .col-2>aside{
+        background:yellowgreen;
+
+        display:flex;
+        border:2px solid;
+width:20vw;
+        height:20vh;
+
+        flex:0.5;
+        text-align:center;
+        border: 10px solid;
+        border-color:seagreen;
+        margin-left:30px;
+          padding:1.5em;
+
+
+
+      }
+      .col-2>section{
+        background:yellowgreen;
+
+        display:flex;
+        border:2px solid;
+        width:20vw;
+        height:50vh;
+
+        flex:1;
+        text-align:center;
+        border: 10px solid;
+        border-color:seagreen;
+        margin-left:30px;
+          padding:1.5em;
+
+
+      }
+      h1{
+
+
+      }
+
+
+      </style>
+  </head>
+  <body>
+    <div class="main">
+
+<div class="col-1"><br>
+  <section><h1>hello world</h1></section><br>
+
+  <article><h1>hello world</h1></article><br>
+
+  </div>
+  <div class="col-2"><br>
+<aside><h1>hello world</h1></aside><br>
+<section><h1>hello world</h1></section><br>
+<aside><h1>hello world</h1></aside><br>
+<aside><h1>hello world</h1></aside><br>
+
+    </div>
+
+
+
+
+      </div>
+
+  </body>
+</html>

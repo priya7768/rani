@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.about-head{
+  padding: 2em 0 ;
+  font-size: 1em;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  margin: 0 auto 0 auto;
+}
+.book-img1{
+  display: flex;
+  width: 95vw;
+  flex-direction: column;
+}
+
+.book-img1 img{
+  width:95vw;
+  display: flex;
+  height: 40vh;
+}
+.hp{
+  display: flex;
+  flex-direction: row;
+  margin-top: -35vh;
+}
+.hp h2{
+  color:black;
+  display: flex;
+  flex:0.7;
+  margin-left: 5vw;
+  margin-top: 10vh;
+}
+.hp p{
+  color:black;
+font-size: 1.3em;
+line-height: 1em;
+display: flex;
+
+}
+.info-article{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15vh;
+}
+.info1 p{
+  width: 60vw;
+  display: flex;
+  color: black;
+  font-size: 1.3em;
+  padding: 1em;
+}
+.info1 h2{
+  margin-left:2vw;
+}
+.branches {
+  width:35vw;
+  display: flex;
+  background-color:	palegoldenrod;
+}
+
+.branches p{
+  padding: 2em;
+  line-height: 1.7em;
+  font-size: 1.3em;
+  position: absolute;
+}
+.branches span{
+  color:white;
+
+}
+.vision1 h2{
+  font-size: 2em;
+
+}
+
+.vision1 p{
+  text-align: center;
+  font-size: 1.5em;
+}
+.vision1 span{
+  color:dodgerblue;
+}
+.Management1{
+  display: flex;
+  flex-direction: column;
+}
+.mgr{
+  display: flex;
+  flex-direction: row;
+}
+.mgr img{
+  border-radius: 50%;
+  display: flex;
+  flex:0.3;
+}
+.Management1 h2{
+  margin: 0 auto 0 auto;
+  margin-bottom: 5vh;
+}
+.contact1{
+  width:95vw;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  margin-top: 7vh;
+}
+.contact1{
+  text-align: center;
+}
+.h22{
+  width:95vw;
+  height:10vh;
+  background-color: #BDB76B;
+}
+.h22 h2{
+  color:white;
+}
+.contact-uss{
+  width:40vw;
+  display: flex;
+  flex-direction: column;
+}
+.contactss{
+  font-size: 1.1em;
+  line-height: 1.5em
+}
+.contactss span{
+  color:grey;
+  font-size: 1em;
+}
+.h2p{
+  margin-left:7vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 8vh;
+}
+.contactss h1{
+  margin-top:15vh  ;
+  position: absolute;
+}
+.map1 iframe{
+  width:40vw;
+  height: 45vh;
+  margin-left: 10vw;
+  margin-top: 16vh;
+
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      *{
+
+        box-sizing:border-box;
+      }
+      .main{
+
+        display:flex;
+        flex:5;
+        flex-direction:column;
+      }
+      header,footer{
+background:yellowgreen;
+height:20vh;
+
+      }
+      .nav{
+width:40vw;
+        display:flex;
+        flex-direction:column;
+min-height:50vh;
+margin:0 auto 0 auto;
+
+
+
+      }
+      nav{
+
+        background:pink;
+        display:flex;
+        height:20vh;
+      flex:5;
+      }
+      .content{
+
+        display:flex;
+        flex-direction:row;
+        height:60vh;
+        flex:3;
+
+
+      }
+      .content>article{
+background:red;
+flex:3;
+        display:flex;
+
+      }
+
+      .content>aside{
+background:yellow;
+flex:3;
+        display:flex;
+
+      }
+
+      </style>
+  </head>
+  <body>
+    <div class="main">
+<header>header</header>
+<div class="nav">
+  <nav>nav</nav>
+  <div class="content">
+    <article>article</article>
+    <aside>aside</aside>
+    </div>
+    </div>
+<footer>footer</footer>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-style: sans-serif;
+}
+.container{
+  width: 95vw;
+  margin: 0 auto;
+  height: auto;
+}
+.ten{
+  padding-top: 6vh;
+  display: flex;
+
+}
+.ten_state{
+height:50vh;
+text-align: center;
+line-height: 2.5em;
+font-size: 8vh;
+
+flex:1;
+
+}
+.ten_cbse{
+  height:50vh;
+
+  text-align: center;
+  font-size: 10vh;
+  flex:1;
+}
+.ten a{
+  text-decoration: none;
+  color:#FFFF66	;
+}
+.eleven{
+  width:auto;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+background-color: #FFFFCC	;
+  padding: 5vh 2vh;
+  text-align: center;
+}
+.ele_arts{
+width:28vw;
+height:40vh;
+padding-top: 10vh;
+border-radius: 50%;
+
+
+}
+.ele_arts a{
+  text-decoration: none;
+  color: #000;
+  font-size: 8vh;
+}
+.ele_comm{
+
+width:28vw;
+height:40vh;
+border-radius: 50%;
+padding-top: 10vh;
+}
+.ele_comm a{
+
+  text-decoration: none;
+  color: #000;
+  font-size: 8vh;
+}
+.ele_sci{
+width:28vw;
+height:40vh;
+border-radius: 50%;
+padding-top: 10vh;
+}
+.ele_sci a{
+  text-decoration: none;
+  color: #000;
+  font-size: 8vh;
+}
+.twelth{
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFFFAA;
+  padding: 5vh 2vh;
+  text-align: center;
+}
+.twel_arts{
+width:28vw;
+height:40vh;
+padding-top: 10vh;
+}
+.twel_arts a{
+  text-decoration: none;
+  color: #000;
+  font-size: 8vh;
+}
+.twel_comm{
+width:28vw;
+height:40vh;
+padding-top: 10vh;
+}
+.twel_comm a{
+  text-decoration: none;
+  color: #000;
+  font-size: 8vh;
+}
+.twel_sci{
+width:28vw;
+height:40vh;
+padding-top: 10vh;
+}
+.twel_sci a{
+  text-decoration: none;
+  color: #000;
+  font-size: 8vh;
+}
+
+ul{
+  margin:0;
+  padding: 3vh 0;
+  background-color: #FFFFCC;
+  padding: 1vh 0;
+  display: flex;
+  box-shadow: 0 2vh 3vh rgba(0, 0, 0, 0.3);
+
+}
+ul li{
+  list-style: none;
+  text-align: center;
+  display: block;
+  border-right:.1vh solid rgba(0, 0, 0, 0.3);
+}
+ul li:last-child{
+  border-right: none;
+}
+ul li a{
+  text-decoration: none;
+  padding: 0 6vw;
+  display: block;
+
+}
+ul li a .icon{
+  width: 4vw;
+  height: 5vh;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 1vh;
+
+
+}
+ul li a .icon .fa{
+  width:100%;
+  height:100%;
+  line-height: 5vh;
+  font-size: 2vw;
+  transition: 0.6s;
+  color: #fff;
+}
+ul li a .icon .fa:last-child
+{
+  color:#e91e63;
+}
+ul li a:hover .icon .fa{
+transform: translateY(-100%);
+}
+ul li a:hover .class{
+  color:#e91e63;
+}
